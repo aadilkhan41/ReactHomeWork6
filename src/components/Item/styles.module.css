@@ -1,0 +1,71 @@
+.section{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #e9ecef;
+}
+
+.details{
+    display: flex;
+}
+
+.section img{
+    width: 100px;
+}
+
+.section h3{
+    margin: 0;
+    font-size: 25px;
+    font-weight: 500;
+    color: #343a40;
+}
+
+.section p{
+    margin: 0;
+    color: #6c757d;
+}
+
+.remove{
+    border: none;
+    outline: none;
+    padding: 5px 0;
+    color: #645CFF;
+    background-color: rgba(0,0,0,0);
+}
+
+.operations{
+    display: flex;
+    align-items: center;
+}
+
+.operations div{
+    display: flex;
+}
+
+.operations p{
+    color: #343a40;
+    padding: 0 10px;
+}
+
+.operations button{
+    outline: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-color: #343a40;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.increment{
+    background-image: url("../../assets/plus-white-3x.svg");
+}
+
+.decrement{
+    background-image: url("../../assets/minus-white-3x.svg");
+}

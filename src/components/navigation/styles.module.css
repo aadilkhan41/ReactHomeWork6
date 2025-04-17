@@ -1,0 +1,47 @@
+.header{
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: #645CFF;
+}
+
+.header nav{
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h2{
+    margin: 0;
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+}
+
+.cartButton{
+    position: relative;
+    padding: 10px;
+}
+
+.cartButton img{
+    width: 25px;
+    height: 25px;
+}
+
+.cartButton p{
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    top: -5px;
+    left: 25px;
+    color: white;
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #A29DFF;
+}
