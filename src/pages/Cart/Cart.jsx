@@ -1,5 +1,5 @@
 import React, { useEffect, useReducer, useState } from 'react';
-import Navigation from "../../components/Navigation/Navigation";
+import Navigation from "../../components/navigation/Navigation";
 import Items from "../../components/Items/Items";
 import {product1, product2, product3, product4} from "../../components/ProductPics/ProductsPic";
 import Loader from '../../components/Loader/Loader';
